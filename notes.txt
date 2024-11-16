@@ -30,3 +30,6 @@ cd c:\Program Files\Microsoft Office\Office16
 ospprearm.exe
 
 ----------
+
+Ref: https://woshub.com/rearm-office-2016-365-free-trial/
+
