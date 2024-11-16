@@ -1,0 +1,32 @@
++ Check Office 2021/2019/2016 & Office 365 Trial Period
+
+Version x64 
+cd "c:\Program Files\Microsoft Office\Office16"
+cscript ospp.vbs /dstatus
+
+Version x32
+cd "c:\Program Files (x86)\Microsoft Office\Office16"
+cscript ospp.vbs /dstatus
+
+----------
+
++ Check all license status
+
+cd c:\windows\system32
+cscript slmgr.vbs /dlv all
+
+or; cscript c:\Windows\System32\slmgr.vbs /dlv all
+
+----------
+
++ Rearm
+
+Office version x32
+cd c:\Program Files (x86)\Microsoft Office\Office16
+ospprearm.exe
+
+Office version x64
+cd c:\Program Files\Microsoft Office\Office16
+ospprearm.exe
+
+----------
