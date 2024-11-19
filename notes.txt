@@ -21,6 +21,8 @@ or; cscript c:\Windows\System32\slmgr.vbs /dlv all
 
 + Rearm
 
+Open CMD as admin.
+
 Office version x32
 cd c:\Program Files (x86)\Microsoft Office\Office16
 ospprearm.exe
